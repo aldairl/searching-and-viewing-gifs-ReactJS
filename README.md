@@ -12,7 +12,7 @@ cp .env.example .env
 
 ## install dependencies
 
-````bash
+```bash
 yarn install
 ```
 
