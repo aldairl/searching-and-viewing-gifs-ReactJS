@@ -1,6 +1,7 @@
-import { getEnvVars } from "./getEnvVars";
+// import { getEnvVars } from "./getEnvVars";
 
-const { VITE_API_KEY } = getEnvVars()
+// const { VITE_API_KEY } = getEnvVars()
+const  VITE_API_KEY  = 'jSSvw7hINL2v85M2N3caWpUwSlwtFBq5'
 
 export const getGifs = async (category) => {
   const url = `https://api.giphy.com/v1/gifs/search?api_key=${VITE_API_KEY}&q=${category}&limit=10`;
